@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBM Art Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+    }
+    header {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      background: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      background: #e63946;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OBM Art Gallery</h1>
+    <p>Portraits réalistes ✍️ | Realistic Portraits</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos / About</h2>
+    <p>
+      🎨 OBM Art Gallery vous offre des portraits réalistes dessinés à la main.<br>
+      Realistic hand-drawn portraits made with passion.  
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Galerie / Gallery</h2>
+    <p>🖼️ Bientôt en ligne... / Coming soon...</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:othnielobm@gmail.com">othnielobm@gmail.com</a></p>
+    <p>Téléphone : <a href="tel:+243997331646">+243 997 331 646</a></p>
+    <a href="https://wa.me/243997331646" class="btn">📲 Commander sur WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 OBM Art Gallery | Powered by OBM</p>
+  </footer>
+</body>
+</html>
